@@ -48,7 +48,7 @@ def plot_predictions(actual, predicted, title):
     plt.ylabel('Price')
     plt.legend()
     plt.show()
-
+dfd
 
 # Main script
 if __name__ == "__main__":
