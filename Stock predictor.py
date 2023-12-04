@@ -4,9 +4,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_squared_error
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import LSTM, Dense
-from tensorflow.keras.callbacks import EarlyStopping
+from keras.models import Sequential
+from keras.layers import LSTM, Dense
+from keras.callbacks import EarlyStopping
 import datetime
 
 
@@ -48,7 +48,7 @@ def plot_predictions(actual, predicted, title):
     plt.ylabel('Price')
     plt.legend()
     plt.show()
-dfd
+
 
 # Main script
 if __name__ == "__main__":
